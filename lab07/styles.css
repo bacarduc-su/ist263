@@ -1,0 +1,15 @@
+body{font-family: Tahoma, sans-serif;}
+
+h1, h2 {color:firebrick}
+
+.special{color:purple}
+
+.evenrow{background-color:purple}
+
+h1 {
+    font-size: 2em; 
+}
+
+h2 {
+    font-size:1em;
+}
