@@ -20,6 +20,7 @@ nav {
     background-color: #4A5E5F;
     padding: 10px;
     margin-bottom: 30px;
+    
 }
 
 nav a {color: #F6D55C;}
@@ -28,4 +29,19 @@ nav a:hover {background-color: #E8C6AA;}
 
 .row1 {float:inline-start;}
 
+@media only screen and (max-width:768px) 
+{
+   body {background-color: #91C2B6;
+        padding: 30px;}
+    nav {display:none}
+    
+}
+
+@media only screen and (min-width:769px)
+{ 
+body {background-color: #91C2B6;
+    padding: 30px;}
+nav {display:none}
+
+}
 
