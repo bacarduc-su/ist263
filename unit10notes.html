@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 10 Notes Accessibility</title>
+        <style>
+            #skip {
+                position: absolute;
+                left: -999px;
+                background-color: white;
+                border: 1px solid black;
+            }
+            /* this position based on top left of viewport and pushes the skip link off the screen */
+            #skip:focus {
+                position:absolute;
+                left: 10px;
+            }
+            /* when you tab to skip link it moves it back on screen */
+        </style>
+    </head>
+        <body>
+            <h1>Accessibility</h1>
+            <!--make sure you use h1 for main heading, h2 for subheading, h3 for sub sub heading, etc...-->
+
+            <img src="../images/Linkedin.png" width="30" alt="Linkedin Logo">
+            <!--nothing in quotes means screen reader ignores-->
+            <!--do not put image of or photo of -->
+            
+            <a href="#maincontent" id="skip">Skip to Content</a>
+            <!--pound sign says we are linking within page to an element that has an id of maincontent-->
+            <a href="http://www.google.com" tabindex="3">Google</a>
+            <a href="http://www.amazon.com" tabindex="2">Amazon</a>
+            <a href="http://www.ebay.com" tabindex="1">Ebay</a>
+            <!--for complex layouts determine order of items tabbed thru-->
+
+            <p> Donec molestie, libero vitae aliquet fringilla, diam justo fermentum odio, ut porta dui nisl et diam. Phasellus eu quam cursus, fermentum metus quis, condimentum enim. Aenean ut libero lacinia, fringilla enim non, aliquet nisl. In non lacus eu nunc rutrum porta. Aliquam consequat, est in rutrum tristique, nisi enim euismod nibh, ut sagittis mauris ante at nulla. Mauris hendrerit enim sit amet arcu dapibus sodales. </p>
+
+            <a id="maincontent"></a>
+            <!--Here's the things the anchor tag links to-->
+
+            <p>Donec tellus lorem, egestas ut tortor eu, pulvinar tristique massa. Fusce interdum, mi non commodo dapibus, turpis sapien eleifend metus, nec placerat dolor augue eu ligula. Nullam id tellus eu felis consequat vestibulum et bibendum metus. Quisque maximus nunc ut lorem aliquam, ut ullamcorper dui lacinia. Nullam interdum maximus ligula, ac porttitor est pretium at. Morbi quis congue odio. Sed magna leo, fringilla sit amet suscipit ac, rhoncus id tellus.</p>
+
+        </body>
+</hmtl>
