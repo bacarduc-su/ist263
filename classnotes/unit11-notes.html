@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 11 Notes</title>
+        <!--script tag is for embedding javascript in html-->
+        <script>
+            /* code is named SayHello, it must have curly brackets to start and end the named code */
+            function SayHello() { 
+            alert('Hello World');
+            /*alert is my function, all functions have paranthesis after them, inside quotes with a message, semicolon at end of every line */
+            }
+            function SecondFunction() {
+                alert('Second Alert');
+            }
+            function ThirdFunction() {
+                alert('Third Alert');
+            }
+        </script>
+    </head>
+
+    <body onload="SayHello();">
+        <!-- this onload is telling our named code to run-->
+        <p> Aenean faucibus pulvinar aliquet. Cras eu arcu non mi semper iaculis vel pretium odio. In sed orci sit amet ante vehicula ultrices. Duis quis auctor turpis. Aenean nec diam sit amet nibh placerat eleifend sit amet vel nulla. Maecenas efficitur, purus ac maximus eleifend, enim odio suscipit elit, sit amet elementum lacus nibh sit amet ligula. Maecenas vulputate nunc quis neque consequat fringilla. Maecenas aliquet placerat scelerisque. Sed porta vestibulum nunc, vel varius nibh interdum a. Aliquam quam diam, tincidunt ac convallis ut, tincidunt sed augue. Nullam id rutrum arcu. Nulla ut lectus egestas, ornare orci vitae, viverra nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut sed mattis sapien. Nunc bibendum dolor augue, at semper massa finibus id. Nullam ut mi mi. </p>
+        <a href="http://www.google.com" onclick="SecondFunction();">Google</a>
+        <a href="" onclick="ThirdFunction ();">Another Link</a>
+        <!-- these links both use onclick but run different-->
+    </body>
+</html>
