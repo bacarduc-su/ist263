@@ -1,7 +1,19 @@
 nav {
-    background-color: #a3a3c2;
+    background-color: #d2d2e0;
     padding: 10px;
     margin-bottom: 20px;
+    margin-left: 510px;
+    font-size: 20px;
 }
-nav a{color: #ff9900;}
-nav a:hover {background-color: blue;}
+nav a{color: #000000;}
+nav a:hover {background-color: #b3b3ff;}
+
+body{
+    background-color: #d2d2e0;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    margin-left: 540px;
+}
