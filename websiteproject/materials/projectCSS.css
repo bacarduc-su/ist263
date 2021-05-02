@@ -1,19 +1,16 @@
 nav {
-    background-color: #d2d2e0;
+    background-color:#000066;
     padding: 10px;
     margin-bottom: 20px;
-    margin-left: 510px;
+    margin-left: 490px;
     font-size: 20px;
 }
-nav a{color: #000000;}
-nav a:hover {background-color: #b3b3ff;}
+nav a{color: #ffffff;}
+nav a:hover {background-color: #8080ff;}
 
 body{
-    background-color: #d2d2e0;
+    background-color: #000066;
     color: #000000;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h1{
-    margin-left: 540px;
-}
