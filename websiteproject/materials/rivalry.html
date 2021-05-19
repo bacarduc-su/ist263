@@ -9,29 +9,32 @@
             <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap" rel="stylesheet">
             <style>
-                .rivals {float:right; margin-left: 10px; margin-right: 15px;}
-                .lions {float: left; margin-left: 10px; margin-right: 15px;}
-                .stopfloat {clear:both}
-                .paragraph1 {margin-left: 10px; font-size: 20px; color: #ffffff}
-                .paragraph2 {display:flex; font-size: 20px; color: #ffffff}
-                .head {margin-left: 480px; color:orangered;}
+                .head {display:flex; justify-content: center; color:orangered}
                 .footer{float: inline-end; font-size: 20px; color:#ffffff}
                 .body{font-family: 'News Cycle', sans-serif;}
-                .firstpara{flex:1; order:1}
-                .secondpara{flex:1; order:3; margin-right: 20px;}
-                .lions{flex:1; order:2}
+                .rivals {float:right; margin-left: 10px; margin-right: 15px;}
+                .stopfloat {clear:both}
+                .paragraph1 {margin-left: 10px; font-size: 20px; color: #ffffff}
+                .paragraph2 {display: flex; font-size: 20px; color: #ffffff}
+                .paragraph2 article {padding:20px;}
+                .article1, .article2 {margin:10px;}
+                .article1 {flex:1; order:1;}
+                .article2
+                
             </style>
     </head>
 <body>
-    <nav>
-        <a href="titlepage.html">Home</a>
-        <strong>|</strong>
-        <a href="rivalry.html">Rivalry History</a>
-        <strong>|</strong>
-        <a href="playoff.html">Playoff History</a>
-        <strong>|</strong>
-        <a href="players.html">Best Players</a>
-    </nav>
+    <div class="nav">
+        <nav>
+            <a href="titlepage.html">Home</a>
+            <strong>|</strong>
+            <a href="rivalry.html">Rivalry History</a>
+            <strong>|</strong>
+            <a href="playoff.html">Playoff History</a>
+            <strong>|</strong>
+            <a href="players.html">Best Players</a>
+        </nav>
+    </div>
 
     <div class="head"> 
         <h1>Chicago Bears Rivalry History</h1>
@@ -52,21 +55,23 @@
     </div>
 
     <div class="paragraph2">
-        <div class="firstpara">
-        <p>
-        Another important rivalry is between the Chicago Bears and Detroit Lions. The Bears and Lions have faced each other at least one time in each season since 1930. There have been a few unique quirks in this series. While this rivalry is not as significant as Bears-Packers, it still has a place in NFL history. The first meeting between these two franchises came in October of 1930, when the Lions were known as the Portsmouth Spartans. Before moving to Detroit, the franchise was located in Portsmouth, Ohio. The Spartans won that first matchup by a 7-6 score. Regardless, the overall series has been dominated by the Chicago Bears. Their overall record against the Lions is 102-75-5.
-        </p>
-        </div>
-        
-        <div class="lions"> 
-            <img src="../materials/sitemedia/lions.jpg" class="lions" alt="lions">
-        </div>
 
-        <div class="secondpara">
-        <p>
-        Likely the largest contribution this rivalry has made to league history is the conception of a Thanksgiving game. Every Thanksgiving the NFL provides fans with three competitive football games, as that day serves as one of the league’s most viewed game days. When the Lions moved to Detroit, they decided to schedule an annual Thanksgiving Day contest to draw in fans. The 1934 Thanksgiving contest against the Chicago Bears proved to be successful, as a sold-out crowd in Detroit watched their Lions lose to Chicago 19-16. Since that 1934 matchup, Chicago and Detroit have faced off 17 more times on Thanksgiving, with Chicago holding a slight 10-8 series lead on this American holiday. Another freaky, yet sad consequence of this rivalry occurred in October of 1971. Lions’ wide receiver Chuck Hughes collapsed on the field and was rushed to the hospital. Sadly, Hughes did not make it, and remains the only NFL player to ever die on the field. 
-        </p>
-        </div>
+
+        <article class="article1">
+            <img src="../materials/sitemedia/detroit.jpg" class="p2img1" alt="detroit">
+            <p>
+            Another important rivalry is between the Chicago Bears and Detroit Lions. The Bears and Lions have faced each other at least one time in each season since 1930. There have been a few unique quirks in this series. While this rivalry is not as significant as Bears-Packers, it still has a place in NFL history. The first meeting between these two franchises came in October of 1930, when the Lions were known as the Portsmouth Spartans. Before moving to Detroit, the franchise was located in Portsmouth, Ohio. The Spartans won that first matchup by a 7-6 score. Regardless, the overall series has been dominated by the Chicago Bears. Their overall record against the Lions is 102-75-5.
+            </p>
+        </article>
+
+
+        <article class="article2">
+            <img src="../materials/sitemedia/lions.jpg" class="p2img2" alt="lions">
+            <p>
+            Likely the largest contribution this rivalry has made to league history is the conception of a Thanksgiving game. Every Thanksgiving the NFL provides fans with three competitive football games, as that day serves as one of the league’s most viewed game days. When the Lions moved to Detroit, they decided to schedule an annual Thanksgiving Day contest to draw in fans. The 1934 Thanksgiving contest against the Chicago Bears proved to be successful, as a sold-out crowd in Detroit watched their Lions lose to Chicago 19-16. Since that 1934 matchup, Chicago and Detroit have faced off 17 more times on Thanksgiving, with Chicago holding a slight 10-8 series lead on this American holiday. Another freaky, yet sad consequence of this rivalry occurred in October of 1971. Lions’ wide receiver Chuck Hughes collapsed on the field and was rushed to the hospital. Sadly, Hughes did not make it, and remains the only NFL player to ever die on the field. 
+            </p>
+        </article>
+
     </div>
 
     <div class="footer">
