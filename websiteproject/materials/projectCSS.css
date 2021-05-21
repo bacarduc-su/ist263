@@ -1,8 +1,11 @@
 nav {
-    background-color:#000066;
+    display: flex;
+    justify-content: center;
+    
+    background-color:#0B162A;
     padding: 10px;
     margin-bottom: 20px;
-    margin-left: 490px;
+  
     font-size: 20px;
     justify-content: center;
 }
@@ -10,9 +13,12 @@ nav a{color: #ffffff;}
 nav a:hover {background-color: #8080ff;}
 
 body{
-    background-color: #000066;
+    background-color: #0B162A;
     color: #000000;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-head {display:flex; justify-content: center; color:orangered}
+
+head {display:flex; justify-content: center; color: #C83803}
+
+@media only screen and (max-width: 768px) {nav {font-size: 90%;} .fields, .soldier {display:none}}
