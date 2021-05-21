@@ -21,4 +21,4 @@ body{
 
 head {display:flex; justify-content: center; color: #C83803}
 
-@media only screen and (max-width: 768px) {nav {font-size: 90%;} .fields, .soldier {display:none}}
+@media only screen and (max-width: 768px) {nav {font-size: 90%;} .fields, .soldier {display:none} .rivals, .paragraph12, .cutler, .fogbowl, .paragraph22 .walterpayton {flex-wrap: wrap;} .walterpayton {width: 95%} }/*.fogbowlpic {}*/
